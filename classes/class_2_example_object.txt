@@ -9,5 +9,5 @@ wait_staff_names ["Ray", "Nancy", "May"]
 Methods
 replace_master_chef = "Jackie"
 hire_staff = 4
-fire_staff = ["Ray", "Nancy"]
+remove_staff = ["Ray", "Nancy"]
 list_managers = ["Dani", "Esther", "Ruth"]

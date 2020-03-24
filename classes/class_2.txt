@@ -9,5 +9,5 @@ wait_staff_names(array)
 Methods
 replace_master_chef(replaces the name string of master_chef)
 hire_staff(adds 1 to wait_staff)
-fire_staff(removes name from wait_staff_names array)
+remove_staff(removes name from wait_staff_names array)
 list_managers(reveals managers array)
