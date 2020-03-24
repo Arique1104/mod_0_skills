@@ -1,13 +1,13 @@
-Class Restaurant
+Class Kitchen
 
 Attributes
 is_open(boolean)
-lunch_special(string)
-max_capacity(integer)
-vegan_dishes(array)
+stock(array)
+kitchen_stove(integer)
+plates_material(string)
 
 Methods
-restaurant_close (turns is_open into false)
-vegan_options(shows what vegan_dishes are available in the array)
-lunch_special_menu(retrieves what is in the lunch_special)
-remodel_addition(adds 25 to max_capacity)
+kitchen_close (turns is_open into false)
+update_stock(gets information in stock array)
+kitchen_remodel(adds 4 to kitchen_stove)
+to_go(replaces plates_material string to "Styrofoam")
