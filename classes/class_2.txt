@@ -1,13 +1,13 @@
 Class Staff
 
 Attributes
-master_chef(string)
+head_chef(string)
 wait_staff(integer)
 managers(array)
 wait_staff_names(array)
 
 Methods
-replace_master_chef(replaces the name string of master_chef)
+replace_head_chef(replaces the name string of head_chef)
 hire_staff(adds 1 to wait_staff)
 remove_staff(removes name from wait_staff_names array)
 list_managers(reveals managers array)
