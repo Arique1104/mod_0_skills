@@ -1,0 +1,13 @@
+Class Restaurant
+
+Attributes
+is_open(boolean)
+lunch_special(string)
+max_capacity(integer)
+vegan_dishes(array)
+
+Methods
+restaurant_close (turns is_open into false)
+vegan_options(shows what vegan_dishes are available in the array)
+lunch_special_menu(retrieves what is in the lunch_special)
+remodel_addition(adds 25 to max_capacity)
