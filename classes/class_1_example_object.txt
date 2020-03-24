@@ -1,0 +1,13 @@
+Cozy Corner
+
+Attributes
+is_open = true
+lunch_special = ("2 dishes for $10.99", "Chef's Choice $9.99 w/ side of fries")
+max_capacity = 25
+vegan_dishes = ["Plantains & Kale", "Hummus and Chips"]
+
+Methods
+restaurant_close = false
+vegan_options = ["Plantains & Kale", "Hummus and Chips"]
+lunch_special_menu = ("2 dishes for $10.99", "Chef's Choice $9.99 w/ side of fries")
+remodel_addition = 50
