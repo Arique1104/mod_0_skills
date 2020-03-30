@@ -7,7 +7,7 @@ kitchen_stove = 12
 plates_material = "Ceramic"
 
 Methods
-kitchen_close = false
+kitchen_close: is_open = false
 update_stock = ["potatoes", "eggs", "milk"]
-kitchen_remodel = 16
-to_go = "Styrofoam"
+kitchen_remodel: kitchen_stove = 16
+to_go: plates_material = "Styrofoam"

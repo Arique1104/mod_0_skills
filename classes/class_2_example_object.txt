@@ -7,7 +7,7 @@ managers = ["Dani", "Esther", "Ruth"]
 wait_staff_names ["Ray", "Nancy", "May"]
 
 Methods
-replace_head_chef = "Jackie"
+replace_head_chef: head_chef = "Jackie"
 hire_staff = 4
-remove_staff = ["Ray", "Nancy"]
-list_managers = ["Dani", "Esther", "Ruth"]
+remove_staff: wait_staff_names = ["Ray", "Nancy"]
+list_managers: managers = ["Dani", "Esther", "Ruth"]
